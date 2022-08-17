@@ -8,16 +8,18 @@ body{
     box-sizing: border-box;
     width:99%;
     margin: -25px 5px;
+    align-items: center;
 }
 
 header{
     background-color: #4e4f50;
     color: #fff;
-    border:1px solid #fff ;
     display: flex;
     margin: 30px 0px 10px 0px;
     justify-content: space-between;
     padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 header img {
     display:block;
@@ -30,8 +32,7 @@ header img {
 nav{
     background-color: #4e4f50;
     color: #fff;
-    border:1px solid #fff ;
-    width:100%;
+    width:90%;
     position:fixed ;
     display:flex;
     justify-content: space-around;
@@ -39,34 +40,35 @@ nav{
     
 }
 audio{
+    width:100px;
     height: 25px;
     background-color: #4e4f50;
-    color: #4e4f50;
 }
 main{
     background-color: #4e4f50;
     color: #fff;
-    border:1px solid #fff ;
+    
     display: flex;
     width:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-section{
+div{
     background-color: #4e4f50;
     color: #fff;
-    border:1px solid #fff ;
+    
+    width: 80%;
+    align-self: center;
 }
-aside{
-    background-color: #4e4f50;
-    color: #fff;
-    border:1px solid #fff ;
-}
-
 footer{
     background-color: #4e4f50;
     color: #fff;
-    border:1px solid #fff ;
+    
     display:flex;
-    justify-content: space-around
+    justify-content: space-around;
+    width: 80%
+
 }
 
 a{
@@ -78,7 +80,7 @@ a img{
     width: 30px;
     border:3px solid #4e4f50 ;
 }
-section img{
+div img{
     width:100px;
 }
 #sobri{
