@@ -81,3 +81,8 @@ a img{
 section img{
     width:100px;
 }
+#sobri{
+    border-radius: 20%;
+    width:50%;
+    margin:auto;
+}
