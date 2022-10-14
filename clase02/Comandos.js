@@ -13,4 +13,11 @@ git push
 git status
 ( este comando podemos hacerlo varias veces y en cualquier momento )
 
+Por regla general se usa en JS el camel case
+mi nuevo archivo
+miNuevoArchivo
+
+
+Los elementos de tipo titulo "H" van del 1 al 6
+
 */
