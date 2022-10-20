@@ -1,0 +1,22 @@
+
+
+body{
+    background: rgb(204, 240, 240);
+}
+
+.containerP{
+    width:80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    transition-duration: 2s
+}
+img:hover{
+    cursor:pointer;
+    width:60%;
+    height: auto;
+
+
+}
